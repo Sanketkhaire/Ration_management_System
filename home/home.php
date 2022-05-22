@@ -13,14 +13,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Public Distribution system</title>
-<link href="../styles/layout.css" rel="stylesheet" type="text/css" />
-<link href="../styles/form.css" rel="stylesheet" type="text/css" />
+<link href="../styles/layout1.css" rel="stylesheet" type="text/css" />
+<link href="../styles/forms.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body >
 <div id="header"> 
-<p></p>
-<h1><strong>Public Distribution system <font color="red"></font></strong></h1>
+<h1><strong>Public Distribution system</strong></h1>
 
 </div>
 <div id="menu">
@@ -32,7 +31,7 @@
 
                 <legend>Welcome <?php echo $_SESSION['SESS_LAST_NAME'];?> to the system!
 			<a href="../logout.php">Logout</a>
-         <fieldset>	     
+         <fieldset style="margin-top:20px;">	     
 		 <table align="center">
 		 <?php
 		 $pos=$_SESSION['SESS_LAST_NAME'];
