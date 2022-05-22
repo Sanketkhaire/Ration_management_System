@@ -20,7 +20,7 @@
 <link href="../styles/table.css" rel="stylesheet" type="text/css" />
 <link href="../styles/layout.css" rel="stylesheet" type="text/css" />
 <link href="../styles/layout1.css" rel="stylesheet" type="text/css" />
-<link href="../styles/form.css" rel="stylesheet" type="text/css" />
+<link href="../styles/forms.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="header"> 
@@ -36,7 +36,7 @@
 <fieldset>
 <table align="center"> 
 <form method="Post" action="viewdata.php">
-<legend style="background-color:purple; width:800px; color:white; border-radius: 10px;">RETRIVE DATA</legend>
+<legend id="legendStyle" style="color:white;">RETRIVE DATA</legend>
 		<tr>
           <td><label>Username:<label></td>
           <td ><input type="text" autocomplete="off" name="a" tabindex="2" required /></td>
@@ -54,7 +54,7 @@
           <td ><input type="number" autocomplete="off" name="y" tabindex="2" required /></td>
         </tr>
 		<tr>
-          <td><input type="submit" style="background-color:green; width: 150px; color:white; border-radius: 10px;" name="Register" value="Get Data"/></td>
+          <td><input type="submit"  name="Register" value="Get Data" style="background-color:#242F9B; height:30px;width: 260px; color:white; border-radius: 10px;"/></td>
         </tr>
 </form>
 </table>
