@@ -87,7 +87,7 @@ $qry5 = mysqli_query($link,"
 	}
 ?>
 <form method="Post">
-<legend style="background-color:purple; width:800px; color:white; border-radius: 10px;">Register Card Holder here!</legend>
+<legend style="background-color:#2F8F9D; width:800px;height:20px; color:white; border-radius: 10px;padding-left:10px;padding-top:5px;font-family:'Source Sans Pro', sans-serif;">Register Card Holder here!</legend>
 	<!-- <tr>
           <td><label>Refugee No:<label></td>
           <td ><input type="text" name="refNo" tabindex="2" required /></td>
@@ -118,8 +118,10 @@ $qry5 = mysqli_query($link,"
         </tr>
 		
 		<tr>
-          <td><input type="submit" style="background-color:green; width: 150px; color:white; border-radius: 10px;" name="Register" value="Register"/></td>
+          <td><input type="submit" style="background-color:#242F9B; height:30px;width: 260px; color:white; border-radius: 10px;" name="Register" value="Register"/></td>
         </tr>
 		
 			</table>
+			<br/>
 </form>
+
