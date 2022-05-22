@@ -57,7 +57,7 @@ if(mysqli_num_rows($res3) == 0){
 
 ?>
 <form method="Post">
-<legend style="background-color:purple; width:800px; color:white; border-radius: 10px;">Register ration here!</legend>
+<legend id="legendStyle" style="color:white;">Register ration here!</legend>
 
 		<tr>
           <td><label>Username:<label></td>
@@ -81,7 +81,7 @@ if(mysqli_num_rows($res3) == 0){
         </tr> -->
 		<tr>
           <td></td>
-          <td><input type="submit" name="Register" value="Submit"/></td>
+          <td><input type="submit" name="Register" value="Submit" style="background-color:#242F9B; height:30px;width: 260px; color:white; border-radius: 10px;"/></td>
         </tr>
 </fieldset>
 	
